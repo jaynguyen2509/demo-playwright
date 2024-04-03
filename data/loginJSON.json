@@ -1,0 +1,22 @@
+{
+    "validUser":{
+        "username":"koushik350@gmail.com",
+        "password":"Pass123$"
+    },
+    "incorrectUsername":{
+        "username":"Invalid_UserName",
+        "password":"Pass123"
+    },
+    "incorrectPassword":{
+        "username":"lambda",
+        "password":"Invalid_Password"
+    },
+    "blankUserName":{
+        "username": "",
+        "password": "Pass123"
+    },
+    "blankPassword":{
+        "username":"Invalid_UserName",
+        "password":""
+    }    
+}

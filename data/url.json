@@ -1,0 +1,6 @@
+{
+    "login": "/index.php?route=account/login",
+    "register":"/index.php?route=account/register",
+    "myAccount":"/index.php?route=account/account",
+    "homePage" : "/index.php?route=common/home"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "playwright test --config=demo-config.config.ts --project=Chromium",
+    "test:firefox": "playwright test --config=playwright.config.ts --project=firefox",
+    "test:api": "playwright test --config=api.config.ts --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
